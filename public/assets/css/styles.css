@@ -1,0 +1,83 @@
+.nav-wrapper {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+span {
+	font-weight: bold;
+}
+
+.header {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.parallax-container {
+	min-height: 400px;
+	height: auto;
+	vertical-align: bottom;
+	color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+	width: 100%;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border: none;
+	font-family: 'Bangers', cursive;
+    font-style: italic;
+	color: black;
+	text-align: center;
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-weight: bolder;
+}
+
+.divider {
+	margin: 20px 0 20px 0;
+}
+
+.parallax {
+	vertical-align: bottom;
+}
+
+.card {
+	border: 1px solid white;
+	width: 200px;
+    height: 140px;
+	position: center;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.card-image {
+	width: 200px;
+    height: 140px;
+	padding: none;
+    transition: box-shadow 1.5s;
+}
+
+.parallax img {
+	width: 100%;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    height: 140px;
+}
